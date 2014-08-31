@@ -1,5 +1,5 @@
-#ifndef _TEST_DEMO
-#define _TEST_DEMO
+//#ifndef _TEST_DEMO
+//#define _TEST_DEMO
 
 #include <iostream>
 #include <vector>
@@ -39,4 +39,4 @@ void TestSendData()
 
 }
 
-#endif
+//#endif

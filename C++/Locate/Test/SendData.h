@@ -1,5 +1,5 @@
-#ifndef _SEND_DATA
-#define _SEND_DATA
+//#ifndef _SEND_DATA
+//#define _SEND_DATA
 
 #include  <windows.h>
 #include  <stdio.h>
@@ -181,4 +181,4 @@ double MoveTime(Point3i start, Point3i end, Speed sp, double delay = 0)
 		return yTime > zTime ? yTime : zTime;
 }
 
-#endif
+//#endif

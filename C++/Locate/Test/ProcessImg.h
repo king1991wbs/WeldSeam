@@ -1,5 +1,5 @@
-#ifndef _PROCESS_IMG
-#define _PROCESS_IMG
+//#ifndef _PROCESS_IMG
+//#define _PROCESS_IMG
 
 #include<vector>
 #include <deque>
@@ -358,4 +358,4 @@ bool ComparePointX(const Point &p1, const Point &p2)
 	return p1.x < p2.x;
 }
 
-#endif
+//#endif

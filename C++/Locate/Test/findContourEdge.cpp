@@ -1,7 +1,4 @@
-﻿#ifndef _FIND_CONTOUR_EDGE
-#define _FIND_CONTOUR_EDGE
-
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <deque>
 #include <opencv2/core/core.hpp>
@@ -16,10 +13,10 @@
 #include <Windows.h>
 #include <fstream>
 
+#include "MoveMachineArm.h"
 #include "ProcessImg.h"
 #include "SendData.h"
 #include "TestDemo.h"
-#include "MoveMachineArm.cpp"
 
 using namespace cv;
 using namespace std;
@@ -392,5 +389,3 @@ int main()
 	
 	return 0;
 }
-
-#endif
