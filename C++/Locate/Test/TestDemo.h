@@ -1,6 +1,3 @@
-#ifndef _TEST_DEMO
-#define _TEST_DEMO
-
 #include <iostream>
 #include <vector>
 #include <deque>
@@ -38,5 +35,3 @@ void TestSendData()
 {
 
 }
-
-#endif
