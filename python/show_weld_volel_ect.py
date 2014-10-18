@@ -1,5 +1,6 @@
 #-*- coding:utf-8 -*-
 import plotwelddata
+
 path = raw_input('input your data file name with full path:')
 '''
 for path in range(2, 32):
