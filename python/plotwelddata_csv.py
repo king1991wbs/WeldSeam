@@ -19,7 +19,7 @@ def plotdata(data_file_name):
 	#data_file_name = 'C:\\Users\\KING\\Desktop\\data_v_i\\20141016_ban1\\数据日志 0 (18).xls'
 	path = unicode(data_file_name, 'utf-8')
 	#path = u'C:\\Users\\KING\\Desktop\\测试.txt'
-	time = [], electricity = [], voltage = [], offset = []#时间，电流，电压，位移
+	time = []; electricity = []; voltage = []; offset = []#时间，电流，电压，位移
 	data_csv = open(path, 'rb')
 	csvdatareader = csv.reader(data_csv)
 	csvdatareader.next()
