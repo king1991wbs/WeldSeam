@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-import plotwelddata_csv
+import plotwelddata_csv#需注意引入文件名
 
 path = raw_input('input your data file name with full path:')
 '''
