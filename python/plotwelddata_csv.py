@@ -25,8 +25,8 @@ def plotdata(data_file_name):
 	csvdatareader.next()
 	for row in csvdatareader:
 		time.append(row[0])
-		electricity.append(row[1])
-		voltage.append(row[2])
+		voltage.append(row[1])
+		electricity.append(row[2])
 		offset.append(row[3])
 	data_csv.close()
 	time.reverse(), electricity.reverse(), voltage.reverse(), offset.reverse()
@@ -53,7 +53,7 @@ def plotdata(data_file_name):
 	#plt.ylabel('electricity')
 	plt.xticks(range(0, len(voltage), 5))
 	plt.yticks(range(0, 110, 5))
-	plt.xlim(0,350)#限制x轴的区间
+	plt.xlim(20,250)#限制x轴的区间
 	plt.grid(True)#绘制背景格子
 	plt.legend(loc = 'upper left')#设置图例标签显示位置
 	plt.title('relatioship of v & e')
